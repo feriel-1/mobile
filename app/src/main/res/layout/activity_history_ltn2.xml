@@ -1,9 +1,33 @@
 <?xml version="1.0" encoding="utf-8"?>
-<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
+    android:background="@drawable/background"
+    android:orientation="vertical"
     tools:context=".HistoryLtn2">
 
-</androidx.constraintlayout.widget.ConstraintLayout>
+    <ImageButton
+        android:id="@+id/navButton"
+        android:layout_width="63dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="This is a button with an image representing XYZ action"
+        android:onClick="onClickMethod"
+        app:srcCompat="@drawable/naav" />
+
+    <TextView
+        android:id="@+id/Leoni"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="100dp"
+        android:gravity="center"
+        android:text="History of LTN2"
+        android:textColor="#0707BA"
+        android:textColorHighlight="#FFFFFF"
+        android:textSize="50sp"
+        android:textStyle="bold|italic" />
+
+</LinearLayout>

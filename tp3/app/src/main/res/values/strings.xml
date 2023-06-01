@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">Tp1-p2</string>
+    <string name="textview">MoneyConverter</string>
+    <string name="radioBtnETD">Euro -> Dinar</string>
+    <string name="radioBtnDTE">Dinar -> Euro</string>
+    <string name="Convert">Convert</string>
+    <string name="label">The result will be displayed here</string>
+</resources>

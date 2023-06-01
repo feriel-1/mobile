@@ -74,12 +74,9 @@ public class Register extends AppCompatActivity {
                                 ProgressBar.setVisibility(View.GONE);
                                 if (task.isSuccessful()) {
                                     FirebaseUser user = mAuth.getCurrentUser();
-                                    Toast.makeText(Register.this, "Acount is created.",
-                                            Toast.LENGTH_SHORT).show();
+                                    Toast.makeText(Register.this, "Acount is created.", Toast.LENGTH_SHORT).show();
 
                                 } else {
-                                    // If sign in fails, display a message to the user.
-
                                     Toast.makeText(Register.this, "Creation is failed.", Toast.LENGTH_SHORT).show();
 
                                 }
