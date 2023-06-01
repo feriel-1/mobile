@@ -73,6 +73,7 @@ public class Login extends AppCompatActivity {
                             @Override
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 if (task.isSuccessful()) {
+                                    progressBar.setVisibility(View.GONE);
                                     Toast.makeText(Login.this, "Authentication successfully.",
                                             Toast.LENGTH_SHORT).show();
                                     Intent intent = new Intent(getApplicationContext(), ServerRoom.class);
