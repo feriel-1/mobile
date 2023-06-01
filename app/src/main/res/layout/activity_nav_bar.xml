@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".navBar"
+    android:background ="@drawable/background">
+
+
+    <ImageButton
+        android:id="@+id/navButton"
+        android:layout_width="63dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="This is a button with an image representing XYZ action"
+        android:onClick="onClickMethod"
+        app:srcCompat="@drawable/naav" />
+    <TextView
+        android:id="@+id/navTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="120dp"
+        android:text="LEONI"
+        android:textColor="#0707BA"
+        android:textAlignment="center"
+        android:textSize="50dp"
+        android:textStyle="bold|italic" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="300dp"
+        android:orientation="vertical">
+
+        <Button
+            android:id="@+id/serverRoomB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0707BA"
+            android:text="ServerRoom" />
+
+        <Button
+            android:id="@+id/manageUserB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0707BA"
+            android:text="Manage User" />
+
+        <Button
+            android:id="@+id/historiqueB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0707BA"
+            android:text="History" />
+
+        <Button
+            android:id="@+id/acountB"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:backgroundTint="#0707BA"
+            android:text="Acount" />
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="horizontal">
+
+
+
+        <Button
+            android:id="@+id/logout"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginLeft="300dp"
+            android:layout_marginTop="600dp"
+            android:backgroundTint="#0707BA"
+            android:text="Log Out" />
+    </LinearLayout>
+
+</RelativeLayout>

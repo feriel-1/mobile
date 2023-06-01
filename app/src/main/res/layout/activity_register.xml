@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/linear"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Login"
+    android:background ="@drawable/background">
+
+
+    <ImageButton
+        android:id="@+id/navButton"
+        android:layout_width="63dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="This is a button with an image representing XYZ action"
+        android:onClick="onClickMethod"
+        app:srcCompat="@drawable/naav" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <TextView
+            android:id="@+id/Leoni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="80dp"
+            android:gravity="center"
+            android:text="Add User"
+            android:textColor="#0707BA"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+
+        <EditText
+            android:id="@+id/Username"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="80dp"
+            android:textColorHighlight="#FBF9F9"
+            android:hint="Email"
+            android:textColorLink="#F3F2F2" />
+
+        <EditText
+            android:id="@+id/Password"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="30dp"
+            android:selectAllOnFocus="true"
+            android:inputType="textPassword"
+            android:hint="Password" />
+
+        <Button
+            android:id="@+id/signup"
+            android:layout_width="236dp"
+            android:layout_height="50dp"
+            android:layout_marginTop="16dp"
+            android:layout_marginBottom="64dp"
+            android:backgroundTint="#0707BA"
+            android:text="Add"
+            android:textColor="#F2F2F4"
+            android:textColorHint="#B4BCE6"
+            android:textSize="20sp" />
+
+        <ProgressBar
+            android:id="@+id/Loading"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:visibility="gone" />
+
+
+    </LinearLayout>
+
+</RelativeLayout>

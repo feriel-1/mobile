@@ -1,0 +1,49 @@
+{
+  "project_info": {
+    "project_number": "385983907985",
+    "firebase_url": "https://leoni-pfe-default-rtdb.firebaseio.com",
+    "project_id": "leoni-pfe",
+    "storage_bucket": "leoni-pfe.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385983907985:android:0d8dccda4a98859c0bd730",
+        "android_client_info": {
+          "package_name": "com.example.appdashboard"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5X7wU7r7Z1u7HquJUwywdrYRgF3vb0wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    },
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385983907985:android:0a430d11069ef93a0bd730",
+        "android_client_info": {
+          "package_name": "com.example.leoni"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB5X7wU7r7Z1u7HquJUwywdrYRgF3vb0wE"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
