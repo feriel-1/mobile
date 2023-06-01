@@ -57,28 +57,27 @@
             android:text="History" />
 
         <Button
-            android:id="@+id/acountB"
+            android:id="@+id/registerB"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"
             android:backgroundTint="#0707BA"
-            android:text="Acount" />
-    </LinearLayout>
+            android:text="Add users" />
 
-    <LinearLayout
-        android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:orientation="horizontal">
-
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal">
 
 
-        <Button
-            android:id="@+id/logout"
-            android:layout_width="wrap_content"
-            android:layout_height="wrap_content"
-            android:layout_marginLeft="300dp"
-            android:layout_marginTop="600dp"
-            android:backgroundTint="#0707BA"
-            android:text="Log Out" />
+            <Button
+                android:id="@+id/logout"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="300dp"
+                android:layout_marginTop="600dp"
+                android:backgroundTint="#0707BA"
+                android:text="Log Out" />
+        </LinearLayout>
     </LinearLayout>
 
 </RelativeLayout>
