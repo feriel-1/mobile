@@ -1,0 +1,67 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#F6D9AD"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="match_parent"
+        android:layout_height="72dp"
+        android:layout_marginTop="75sp"
+        android:fontFamily="sans-serif-condensed-light"
+        android:gravity="center"
+        android:text="@string/title"
+        android:textColor="@color/couleur_de_titre"
+        android:textSize="40sp"
+        android:textStyle="bold|italic" />
+
+    <EditText
+        android:id="@+id/e_entry"
+        android:layout_width="match_parent"
+        android:layout_height="84dp"
+        android:ems="10"
+        android:inputType="textPersonName" />
+
+    <RadioGroup
+        android:layout_width="match_parent"
+        android:layout_height="178dp">
+
+        <RadioButton
+            android:id="@+id/euro_dinar"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Euro --> Dinar"
+            android:textSize="20sp" />
+
+        <RadioButton
+            android:id="@+id/dinar_euro"
+            android:layout_width="match_parent"
+            android:layout_height="65dp"
+            android:text="Dinar --> Euro"
+            android:textSize="20sp" />
+
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/b_convert"
+        android:layout_width="178dp"
+        android:layout_height="59dp"
+        android:layout_gravity="center"
+        android:shadowColor="#404040"
+        android:text="convert" />
+
+    <TextView
+        android:id="@+id/e_result"
+        android:layout_width="match_parent"
+        android:layout_height="86dp"
+        android:fontFamily="serif"
+        android:gravity="center"
+        android:text="the result will be displayed here"
+        android:textColor="#302E2E"
+        android:textSize="20sp" />
+</LinearLayout>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    tools:context=".MainActivity">
+
+    <TextView
+        android:id="@+id/textview"
+        android:layout_width="match_parent"
+        android:layout_height="55dp"
+        android:paddingTop="30px"
+        android:text="@string/textview"
+        android:textSize="50px"
+        android:textAlignment="center"
+        android:textColor="@color/white"
+        android:background="@color/purple_500"
+        android:textFontWeight="500"/>
+    />
+
+    <com.google.android.material.textfield.TextInputEditText
+        android:id="@+id/thextInput"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="enter your solde here"
+        android:minHeight="48dp" />
+
+    <RadioGroup
+        android:id="@+id/RGroup"
+        android:layout_width="match_parent"
+        android:layout_height="100dp"
+        android:paddingLeft="50px"
+        android:paddingTop="50px"
+        android:paddingRight="50px">
+
+        <RadioButton
+            android:id="@+id/radioButton1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:checked="true"
+            android:paddingBottom="50px"
+            android:text="@string/radioBtnETD"
+            android:textSize="30px" />
+
+        <RadioButton
+            android:id="@+id/radioButton2"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:minHeight="48dp"
+            android:paddingBottom="50px"
+            android:text="@string/radioBtnDTE"
+            android:textSize="30px" />
+    </RadioGroup>
+
+    <Button
+        android:id="@+id/button2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="420px"
+        android:background="#9C27B0"
+        android:padding="20px"
+        android:shadowRadius="20"
+        android:text="@string/Convert"
+        android:textColor="#FFFFFF"
+        android:textSize="35px" />
+
+    <ImageView
+        android:id="@+id/imageView"
+        android:layout_width="match_parent"
+        android:layout_height="276dp"
+        app:srcCompat="@drawable/exchange" />
+
+
+</LinearLayout>
