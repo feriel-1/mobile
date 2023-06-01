@@ -29,7 +29,6 @@ public class Register extends AppCompatActivity {
     Button SignUp;
     TextView Title  ;
     ProgressBar ProgressBar;
-    @SuppressLint("MissingInflatedId")
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -62,6 +61,7 @@ public class Register extends AppCompatActivity {
                             public void onComplete(@NonNull Task<AuthResult> task) {
                                 ProgressBar.setVisibility(View.GONE);
                                 if (task.isSuccessful()) {
+                                    FirebaseUser user = mAuth.getCurrentUser();
                                     Toast.makeText(Register.this, "Acount is created.",
                                             Toast.LENGTH_SHORT).show();
 
