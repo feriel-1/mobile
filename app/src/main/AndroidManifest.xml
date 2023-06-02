@@ -21,15 +21,11 @@
             android:name=".Register"
             android:exported="true"
             android:theme="@style/Theme.Material3.Light.NoActionBar">
-<<<<<<< HEAD
 
 
             <meta-data android:name="android.app.lib_name"
                 android:value=""/>
 
-
-=======
->>>>>>> e776851d4b19af40edccc0f7586ba58d31fca1cd
 
             <meta-data
                 android:name="android.app.lib_name"
@@ -87,24 +83,13 @@
             android:name=".Login"
             android:exported="true"
             android:theme="@style/Theme.Material3.Light.NoActionBar">
-<<<<<<< HEAD
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <meta-data android:name="android.app.lib_name"
                 android:value=""/>
-
-=======
-            <intent-filter>
-                <action android:name="android.intent.action.MAIN" />
-
-                <category android:name="android.intent.category.LAUNCHER" />
-            </intent-filter>
->>>>>>> e776851d4b19af40edccc0f7586ba58d31fca1cd
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
