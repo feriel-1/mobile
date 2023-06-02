@@ -1,10 +1,11 @@
 <?xml version="1.0" encoding="utf-8"?>
-<TableLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@drawable/background"
+    android:orientation="vertical"
     android:stretchColumns="1,2,3"
     tools:context=".ManageUser">
 
@@ -18,60 +19,65 @@
         android:onClick="onClickMethod"
         app:srcCompat="@drawable/naav" />
 
-    <TextView
-        android:id="@+id/title"
+    <TableLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="40dp"
-        android:gravity="center"
-        android:text="USERS"
-        android:textColor="#0707BA"
-        android:textSize="50dp"
-        android:textStyle="bold" />
-
-
-    <TableRow
-        android:layout_marginLeft="10dp"
-        android:layout_marginTop="30dp"
-        android:layout_marginRight="10dp"
-        android:layout_marginBottom="10dp">
+        android:layout_height="match_parent">
 
         <TextView
-            android:id="@+id/name"
+            android:id="@+id/title"
             android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="1"
-            android:padding="10dp"
-            android:text="Name"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="40dp"
+            android:gravity="center"
+            android:text="USERS"
             android:textColor="#0707BA"
-            android:textSize="30dp"
+            android:textSize="50dp"
             android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/email"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="1"
-            android:padding="10dp"
-            android:text="Email"
-            android:textColor="#0707BA"
-            android:textSize="30dp"
-            android:textStyle="bold" />
 
-        <TextView
-            android:id="@+id/delete"
-            android:layout_width="match_parent"
-            android:layout_height="match_parent"
-            android:layout_column="1"
-            android:padding="10dp"
-            android:text="Delete "
-            android:textColor="#0707BA"
-            android:textSize="30dp"
-            android:textStyle="bold" />
-    </TableRow>
+        <TableRow
+            android:layout_marginLeft="10dp"
+            android:layout_marginTop="30dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp">
 
-    <androidx.recyclerview.widget.RecyclerView
-        android:id="@+id/recycle"
-        android:layout_width="match_parent"
-        android:layout_height="match_parent" />
-</TableLayout>
+            <TextView
+                android:id="@+id/name"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:padding="10dp"
+                android:text="Name"
+                android:textColor="#0707BA"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/email"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:padding="10dp"
+                android:text="Email"
+                android:textColor="#0707BA"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/delete"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_column="1"
+                android:padding="10dp"
+                android:text="Delete "
+                android:textColor="#0707BA"
+                android:textSize="30dp"
+                android:textStyle="bold" />
+        </TableRow>
+
+        <androidx.recyclerview.widget.RecyclerView
+            android:id="@+id/recycle"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+    </TableLayout>
+</LinearLayout>

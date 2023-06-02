@@ -74,6 +74,7 @@
                     android:layout_gravity="center_horizontal"
                     android:text="Temperature Value"
                     android:textColor="#0707BA"
+
                     android:textSize="18dp"
                     android:textStyle="bold|italic" />
 
@@ -83,6 +84,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
+                    android:gravity="center"
                     android:text="27°C"
                     android:textAlignment="center"
                     android:textColor="#0707BA"
@@ -135,6 +137,7 @@
                     android:textAlignment="center"
                     android:text="20%"
                     android:textColor="#0707BA"
+                    android:gravity="center"
                     android:textSize="18dp"
                     android:textStyle="bold|italic" />
 
@@ -182,7 +185,7 @@
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:text="555"
                     android:textColor="#0707BA"
                     android:textSize="18dp"
@@ -228,12 +231,12 @@
                     android:textStyle="bold|italic" />
 
                 <TextView
-                    android:id="@+id/soundValue1"
+                    android:id="@+id/soundValue"
                     android:layout_width="match_parent"
                     android:layout_height="wrap_content"
                     android:layout_gravity="center_horizontal"
                     android:layout_marginTop="30dp"
-                    android:textAlignment="center"
+                    android:gravity="center"
                     android:text="888"
                     android:textColor="#0707BA"
                     android:textSize="18dp"

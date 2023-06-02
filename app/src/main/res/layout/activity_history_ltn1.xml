@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="utf-8"?>
-<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:app="http://schemas.android.com/apk/res-auto"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
@@ -7,27 +7,75 @@
     android:background="@drawable/background"
     android:orientation="vertical"
     tools:context=".HistoryLtn1">
-
-    <ImageButton
-        android:id="@+id/navButton"
-        android:layout_width="63dp"
-        android:layout_height="55dp"
-        android:layout_marginLeft="20dp"
-        android:layout_marginTop="20dp"
-        android:contentDescription="This is a button with an image representing XYZ action"
-        android:onClick="onClickMethod"
-        app:srcCompat="@drawable/naav" />
-
-    <TextView
-        android:id="@+id/Leoni"
+    <LinearLayout
         android:layout_width="match_parent"
-        android:layout_height="wrap_content"
-        android:layout_marginTop="80dp"
-        android:gravity="center"
-        android:text="History of LTN1"
-        android:textColor="#0707BA"
-        android:textColorHighlight="#FFFFFF"
-        android:textSize="50sp"
-        android:textStyle="bold|italic" />
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        >
 
-</LinearLayout>
+        <ImageButton
+            android:id="@+id/navButton"
+            android:layout_width="63dp"
+            android:layout_height="55dp"
+            android:layout_marginLeft="20dp"
+            android:layout_marginTop="20dp"
+            android:contentDescription="This is a button with an image representing XYZ action"
+            android:onClick="onClickMethod"
+            app:srcCompat="@drawable/naav" />
+
+        <TextView
+            android:id="@+id/Leoni"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:gravity="center"
+            android:text="History of LTN1"
+            android:textColor="#0707BA"
+            android:textColorHighlight="#FFFFFF"
+            android:textSize="50sp"
+            android:textStyle="bold|italic" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginTop="20dp"
+            android:background="#bfdbfe">
+
+            <TextView
+                android:id="@+id/date"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Date" />
+
+            <TextView
+                android:id="@+id/temph"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Temperature" />
+
+            <TextView
+                android:id="@+id/humih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Humidity" />
+
+            <TextView
+                android:id="@+id/gazh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Gaz" />
+
+            <TextView
+                android:id="@+id/soundh"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sound" />
+
+        </LinearLayout>
+
+
+
+    </LinearLayout>
+
+</ScrollView>
