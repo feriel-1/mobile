@@ -4,11 +4,37 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:layout_margin="8dp"
+    android:background="@drawable/background"
     android:stretchColumns="1,2,3"
     tools:context=".ManageUser">
 
-    <TableRow>
+    <ImageButton
+        android:id="@+id/navButton"
+        android:layout_width="63dp"
+        android:layout_height="55dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:contentDescription="This is a button with an image representing XYZ action"
+        android:onClick="onClickMethod"
+        app:srcCompat="@drawable/naav" />
+
+    <TextView
+        android:id="@+id/title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="40dp"
+        android:gravity="center"
+        android:text="USERS"
+        android:textColor="#0707BA"
+        android:textSize="50dp"
+        android:textStyle="bold" />
+
+
+    <TableRow
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="30dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginBottom="10dp">
 
         <TextView
             android:id="@+id/name"
@@ -17,6 +43,7 @@
             android:layout_column="1"
             android:padding="10dp"
             android:text="Name"
+            android:textColor="#0707BA"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -27,6 +54,7 @@
             android:layout_column="1"
             android:padding="10dp"
             android:text="Email"
+            android:textColor="#0707BA"
             android:textSize="30dp"
             android:textStyle="bold" />
 
@@ -37,6 +65,7 @@
             android:layout_column="1"
             android:padding="10dp"
             android:text="Delete "
+            android:textColor="#0707BA"
             android:textSize="30dp"
             android:textStyle="bold" />
     </TableRow>

@@ -16,7 +16,7 @@ public class navBar extends AppCompatActivity {
     FirebaseAuth auth;
     FirebaseUser user;
     Button LogOut,ManageB,RegisterB,ServerB,HistoryB;
-    ImageButton Nav;
+    ImageButton nav;
 
 
     @SuppressLint("MissingInflatedId")
@@ -31,7 +31,7 @@ public class navBar extends AppCompatActivity {
         RegisterB=findViewById(R.id.registerB);
         ServerB=findViewById(R.id.serverRoomB);
         HistoryB=findViewById(R.id.historiqueB);
-        Nav=findViewById(R.id.navButton);
+        nav=findViewById(R.id.navButton);
         LogOut.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
@@ -75,7 +75,7 @@ public class navBar extends AppCompatActivity {
                 finish();
             }
         });
-        Nav.setOnClickListener(new View.OnClickListener() {
+        nav.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
                 Intent intent = new Intent(getApplicationContext(),navBar.class);
