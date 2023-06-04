@@ -30,8 +30,30 @@
             android:name=".Register"
             android:exported="true"
             android:theme="@style/Theme.Material3.Light.NoActionBar">
+<<<<<<< HEAD
             <meta-data android:name="android.app.lib_name"
                 android:value=""/>
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+>>>>>>> 4872b721bd5922f010348a77a8f6713cff36f986
+
+
+            <meta-data android:name="android.app.lib_name"
+                android:value=""/>
+
+
+<<<<<<< HEAD
+=======
+=======
+>>>>>>> e776851d4b19af40edccc0f7586ba58d31fca1cd
+
+>>>>>>> 90fec1ffbc7531bdde86e5bd074f9cea90199687
+>>>>>>> 4872b721bd5922f010348a77a8f6713cff36f986
+>>>>>>> 16e0d4f247b628f50e9f15ce07938b552812c6e2
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />
@@ -91,12 +113,12 @@
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
-
-
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
             <meta-data android:name="android.app.lib_name"
                 android:value=""/>
+<<<<<<< HEAD
+=======
 
 
             <intent-filter>
@@ -104,6 +126,15 @@
 
                 <category android:name="android.intent.category.LAUNCHER" />
             </intent-filter>
+<<<<<<< HEAD
+=======
+<<<<<<< HEAD
+
+=======
+>>>>>>> e776851d4b19af40edccc0f7586ba58d31fca1cd
+>>>>>>> 90fec1ffbc7531bdde86e5bd074f9cea90199687
+>>>>>>> 4872b721bd5922f010348a77a8f6713cff36f986
+>>>>>>> 16e0d4f247b628f50e9f15ce07938b552812c6e2
             <meta-data
                 android:name="android.app.lib_name"
                 android:value="" />

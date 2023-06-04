@@ -39,10 +39,19 @@
             android:textStyle="bold|italic" />
 
         <EditText
+            android:id="@+id/fullname"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="100dp"
+            android:textColorHighlight="#FBF9F9"
+            android:hint="User name"
+            android:textColorLink="#F3F2F2" />
+
+        <EditText
             android:id="@+id/Username"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="80dp"
+            android:layout_marginTop="10dp"
             android:textColorHighlight="#FBF9F9"
             android:hint="Email"
             android:textColorLink="#F3F2F2" />
@@ -51,10 +60,20 @@
             android:id="@+id/Password"
             android:layout_width="match_parent"
             android:layout_height="60dp"
-            android:layout_marginTop="30dp"
-            android:selectAllOnFocus="true"
+            android:layout_marginTop="10dp"
+            android:textColorHighlight="#FBF9F9"
             android:inputType="textPassword"
+            android:textColorLink="#F3F2F2"
             android:hint="Password" />
+
+        <EditText
+            android:id="@+id/matricule"
+            android:layout_width="match_parent"
+            android:layout_height="60dp"
+            android:layout_marginTop="10dp"
+            android:textColorHighlight="#FBF9F9"
+            android:hint="matricule"
+            android:textColorLink="#F3F2F2"  />
 
         <Button
             android:id="@+id/signup"
